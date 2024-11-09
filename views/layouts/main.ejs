@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="<%= locals.description  %>">
     <title><%= locals.title  %></title>
+    <link rel="stylesheet" href="css/style.css">
+    //defer executes the script immediately , but doesn't block the parsing of the HTML document
+    //generally script loads after the page has finished loading
+    <script type="text/javascript" defer src="js/script.js"></script>
 </head>
 <body>
     <%- body %>
